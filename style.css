@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Rajdhani;
+    src: url(font/Rajdhani-Bold.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Rajdhani;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(125deg,orange,rgb(247, 150, 105) ) ;
+}
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 250px;
+    width: 550px;
+    background: transparent;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius:10px ;
+}
+.relogio div{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    width: 150px;
+    height: 170px;
+    background: rgba(5, 5, 0.9);
+    border-radius: 5px;
+    font-weight: bolder;
+    color: whitesmoke;
+    box-shadow: 5px 5px 17px rgba(0,0,0,0.7);
+    letter-spacing: 5px;
+}
+.relogio span{
+    font-weight: bolder;
+    font-size: 60px;
+}
+.relogio span.tempo{
+    font-size: 20px;
+}
