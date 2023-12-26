@@ -1,47 +1,163 @@
-@font-face {
-    font-family: Rajdhani;
-    src: url(font/Rajdhani-Bold.ttf);
-}
 *{
     padding: 0;
     margin: 0;
-    font-family: Rajdhani;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    ;
 }
 body{
-    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    flex-direction: column;
+}
+#login-area{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffff;
+    border: 1px #DBDBDB solid;
+    width: 350px;
+    height: 400px;
+    margin: 14px;
+}
+#img-size{
+    margin: 25px;
+    width: 178px;
+    height: 65px;
+}
+.input-size{
+    width: 270px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px #DBDBDB solid ;
+    cursor:text;
+}
+.input-size input::placeholder{
+    background-color: #FAFAFA;
+}
+#login-area button{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(125deg,orange,rgb(247, 150, 105) ) ;
+    padding: 5px;
+    width: 270px;
+    height: 31px;
+    margin: 15px;
+    border-radius:8px;
+    border: none;
+    color: #ffff;
+    font-weight: 700;
+    background-color: #4CB5F9;
 }
-.relogio{
+#box-divisoria{
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
-    height: 250px;
-    width: 550px;
-    background: transparent;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius:10px ;
+    width: 280px;
+    height: 25px;
 }
-.relogio div{
+#box-divisoria p{
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 700;
+    color: #737373
+    ;
+}
+.line {
+    
+    background-color:#DBDBDB;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content:center ;
-    flex-direction: column;
+    height: 1px;
     width: 150px;
-    height: 170px;
-    background: rgba(5, 5, 0.9);
-    border-radius: 5px;
-    font-weight: bolder;
-    color: whitesmoke;
-    box-shadow: 5px 5px 17px rgba(0,0,0,0.7);
-    letter-spacing: 5px;
-}
-.relogio span{
-    font-weight: bolder;
-    font-size: 60px;
-}
-.relogio span.tempo{
-    font-size: 20px;
-}
+    margin: 15px;
+  }
+  #box-final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+  }
+  #box-final img {
+    width: 17px;
+    height: 17px;
+    margin: 5px;
+  }
+  #facebook-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px;
+  }
+  #facebook-p{
+    color: #385185;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+  }
+  #senha-div{
+    display: flex;
+  }
+  #senha-p{
+    color: #00376b;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  #box-count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: 1px #DBDBDB solid;
+    width: 350px;
+    height: 60px;
+  }
+  #box-count p{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  #box-count a{
+    text-decoration: none;
+    margin: 5px;
+   color: #0095f6;
+   font-weight: 600; 
+   line-height: 16px;
+   font-size: 14px;
+  }
+  #apps-box{
+   display: flex;
+   flex-direction: column;
+  }
+  #p-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  #img-box{
+    display: flex;
+    margin: 2px;
+    padding: 5px;
+  }
+  #img-1{
+    width: 130px;
+    height: 40px; 
+    margin-right: 5px;
+  }
+  #img-2{
+    width: 110px;
+    height: 40px;
+    margin-right: 5px;
+  }
